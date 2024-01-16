@@ -16,11 +16,11 @@ public class TodoItem implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
 
     private String description;
 
-    private boolean isComplete;
+    private Boolean isComplete;
 
     private Instant createdAt;
 

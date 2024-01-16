@@ -1,5 +1,6 @@
 package com.viraj.todoapplication.controllers;
 
+import com.viraj.todoapplication.models.TodoItem;
 import com.viraj.todoapplication.repositories.TodoItemRepository;
 import com.viraj.todoapplication.services.TodoItemService;
 import org.springframework.beans.factory.annotation.Autowired;
