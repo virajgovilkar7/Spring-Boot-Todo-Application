@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.awt.event.WindowStateListener;
+import java.io.Serial;
 import java.io.Serializable;
 import java.time.Instant;
 
@@ -15,7 +16,7 @@ import java.time.Instant;
 public class TodoItem implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String description;
